@@ -67,7 +67,7 @@ formatter.examples({
       "cells": [
         "Nike",
         "Olabintan",
-        "toyasolabint1@yahoo.com",
+        "toyasolabint2@yahoo.com",
         "Abc12345",
         "Abc12345"
       ],
@@ -102,7 +102,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters \"Nike\" \"Olabintan\" \"toyasolabint1@yahoo.com\" \"Abc12345\" \"Abc12345\"",
+  "name": "user enters \"Nike\" \"Olabintan\" \"toyasolabint2@yahoo.com\" \"Abc12345\" \"Abc12345\"",
   "matchedColumns": [
     0,
     1,
@@ -126,7 +126,7 @@ formatter.match({
   "location": "AccountManagementSteps.userIsOnTheCreateNewCustomerAccountPage()"
 });
 formatter.result({
-  "duration": 7356890600,
+  "duration": 8362193300,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +140,7 @@ formatter.match({
       "offset": 20
     },
     {
-      "val": "toyasolabint1@yahoo.com",
+      "val": "toyasolabint2@yahoo.com",
       "offset": 32
     },
     {
@@ -155,21 +155,21 @@ formatter.match({
   "location": "AccountManagementSteps.userEnters(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 786529600,
+  "duration": 712159200,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.userClicksOnCreateAnAccount()"
 });
 formatter.result({
-  "duration": 1746061900,
+  "duration": 2239109200,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.myAccountPageIsDisplayed()"
 });
 formatter.result({
-  "duration": 54620100,
+  "duration": 21308400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -227,7 +227,7 @@ formatter.examples({
       "cells": [
         "Nike",
         "Olabintan",
-        "toyasolabint1@yahoo.com",
+        "toyasolabint2@yahoo.com",
         "Abc12345",
         "Abc12345"
       ],
@@ -262,7 +262,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
-  "name": "user enters \"Nike\" \"Olabintan\" \"toyasolabint1@yahoo.com\" \"Abc12345\" \"Abc12345\"",
+  "name": "user enters \"Nike\" \"Olabintan\" \"toyasolabint2@yahoo.com\" \"Abc12345\" \"Abc12345\"",
   "matchedColumns": [
     0,
     1,
@@ -286,7 +286,7 @@ formatter.match({
   "location": "AccountManagementSteps.userIsOnTheCreateNewCustomerAccountPage()"
 });
 formatter.result({
-  "duration": 5562585200,
+  "duration": 4411484400,
   "status": "passed"
 });
 formatter.match({
@@ -300,7 +300,7 @@ formatter.match({
       "offset": 20
     },
     {
-      "val": "toyasolabint1@yahoo.com",
+      "val": "toyasolabint2@yahoo.com",
       "offset": 32
     },
     {
@@ -315,21 +315,21 @@ formatter.match({
   "location": "AccountManagementSteps.userEnters(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 821453600,
+  "duration": 819313900,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.userClicksOnCreateAnAccount()"
 });
 formatter.result({
-  "duration": 1687334400,
+  "duration": 1395263200,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.myAccountPageIsNotDisplayed()"
 });
 formatter.result({
-  "duration": 12031000,
+  "duration": 71147600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -382,7 +382,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "toyasolabint1@yahoo.com",
+        "toyasolabint2@yahoo.com",
         "Abc12345"
       ],
       "line": 35,
@@ -416,7 +416,7 @@ formatter.step({
 });
 formatter.step({
   "line": 29,
-  "name": "user enters \"toyasolabint1@yahoo.com\" \"Abc12345\"",
+  "name": "user enters \"toyasolabint2@yahoo.com\" \"Abc12345\"",
   "matchedColumns": [
     0,
     1
@@ -437,13 +437,13 @@ formatter.match({
   "location": "AccountManagementSteps.userIsOnTheCustomerLoginPage()"
 });
 formatter.result({
-  "duration": 5896964900,
+  "duration": 6292563500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "toyasolabint1@yahoo.com",
+      "val": "toyasolabint2@yahoo.com",
       "offset": 13
     },
     {
@@ -454,21 +454,21 @@ formatter.match({
   "location": "AccountManagementSteps.userEnters(String,String)"
 });
 formatter.result({
-  "duration": 592149400,
+  "duration": 276019000,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.userClicksOnSignInButton()"
 });
 formatter.result({
-  "duration": 1208853900,
+  "duration": 1299668900,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.loggedInPageIsDisplayed()"
 });
 formatter.result({
-  "duration": 15917200,
+  "duration": 58537700,
   "status": "passed"
 });
 });

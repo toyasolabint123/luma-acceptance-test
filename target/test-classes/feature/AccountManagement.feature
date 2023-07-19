@@ -10,7 +10,7 @@ Feature: Account Management
 
     Examples:
       | FirstName | LastName  | Email                    | Password     | ConfirmPassword |
-      | Nike      | Olabintan | toyasolabint1@yahoo.com | Abc12345 | Abc12345    |
+      | Nike      | Olabintan | toyasolabint2@yahoo.com | Abc12345 | Abc12345    |
 
   @DuplicateCreateAccount
   Scenario Outline: Create account using duplicate email
@@ -21,7 +21,7 @@ Feature: Account Management
 
     Examples:
       | FirstName | LastName  | Email                    | Password     | ConfirmPassword |
-      | Nike      | Olabintan | toyasolabint1@yahoo.com | Abc12345 | Abc12345    |
+      | Nike      | Olabintan | toyasolabint2@yahoo.com | Abc12345 | Abc12345    |
 
   @SignIn
   Scenario Outline: Sign in using valid email
@@ -32,4 +32,4 @@ Feature: Account Management
 
     Examples:
       | Email                    | Password     |
-      | toyasolabint1@yahoo.com | Abc12345 |
+      | toyasolabint2@yahoo.com | Abc12345 |
